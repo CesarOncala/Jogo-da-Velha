@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Jogo_da_Velha));
             this.zero_zero = new System.Windows.Forms.Button();
             this.Normal = new System.Windows.Forms.RadioButton();
             this.zero_um = new System.Windows.Forms.Button();
@@ -44,12 +43,10 @@
             this.JogadorxPC = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.Reiniciar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lblNomeCriador = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtBoxHUD = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -210,16 +207,6 @@
             this.Reiniciar.UseVisualStyleBackColor = true;
             this.Reiniciar.Click += new System.EventHandler(this.Reiniciar_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(71, 429);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(223, 65);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 25;
-            this.pictureBox1.TabStop = false;
-            // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -271,7 +258,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 521);
             this.Controls.Add(this.lblNomeCriador);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dois_zero);
             this.Controls.Add(this.dois_um);
@@ -287,7 +273,6 @@
             this.Controls.Add(this.txtBoxHUD);
             this.Name = "Jogo_da_Velha";
             this.Text = "Jogo_da_Velha";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -311,7 +296,6 @@
         public System.Windows.Forms.Button dois_dois;
         public System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Reiniciar;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lblNomeCriador;
         private System.Windows.Forms.GroupBox groupBox2;
