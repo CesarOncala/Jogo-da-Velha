@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -133,6 +134,7 @@ namespace Jogo_da_Velha
                     return;
                 }
 
+                Thread.Sleep(1000);
 
             } while (true);
 

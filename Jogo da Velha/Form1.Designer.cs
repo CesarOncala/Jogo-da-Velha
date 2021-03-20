@@ -225,7 +225,7 @@
             // lblNomeCriador
             // 
             this.lblNomeCriador.AutoSize = true;
-            this.lblNomeCriador.Location = new System.Drawing.Point(108, 501);
+            this.lblNomeCriador.Location = new System.Drawing.Point(105, 473);
             this.lblNomeCriador.Name = "lblNomeCriador";
             this.lblNomeCriador.Size = new System.Drawing.Size(146, 13);
             this.lblNomeCriador.TabIndex = 27;
